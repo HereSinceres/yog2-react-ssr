@@ -1,0 +1,239 @@
+{
+    "res": {
+        "home:page/index/App/index.jsx": {
+            "uri": "/static/home/page/index/App/index.js",
+            "type": "js",
+            "deps": [
+                "home:node_modules/react/index.js"
+            ],
+            "subpath": "/static/home/page/index/App/index.js"
+        },
+        "home:page/index/client.jsx": {
+            "uri": "/static/home/page/index/client.js",
+            "type": "js",
+            "deps": [
+                "home:node_modules/react/index.js",
+                "home:node_modules/react-dom/client.js",
+                "home:page/index/App/index.jsx"
+            ],
+            "subpath": "/static/home/page/index/client.js"
+        },
+        "home:page/index/index.tpl": {
+            "uri": "home/page/index/index.tpl",
+            "type": "tpl",
+            "extras": {
+                "isPage": true
+            },
+            "deps": [
+                "home:page/index/client.jsx"
+            ],
+            "subpath": "/views/home/page/index/index.tpl"
+        },
+        "home:page/index/server.jsx": {
+            "uri": "/static/home/page/index/server.js",
+            "type": "js",
+            "deps": [
+                "home:node_modules/react/index.js",
+                "home:node_modules/react-dom/server.browser.js",
+                "home:page/index/App/index.jsx"
+            ],
+            "subpath": "/static/home/page/index/server.js"
+        },
+        "home:page/layout.tpl": {
+            "uri": "home/page/layout.tpl",
+            "type": "tpl",
+            "extras": {
+                "isPage": true
+            },
+            "subpath": "/views/home/page/layout.tpl"
+        },
+        "home:static/js/bigpipe.js": {
+            "uri": "/static/home/static/js/bigpipe.js",
+            "type": "js",
+            "subpath": "/static/home/static/js/bigpipe.js"
+        },
+        "home:static/js/index.js": {
+            "uri": "/static/home/static/js/index.js",
+            "type": "js",
+            "subpath": "/static/home/static/js/index.js"
+        },
+        "home:static/js/lazyload.js": {
+            "uri": "/static/home/static/js/lazyload.js",
+            "type": "js",
+            "subpath": "/static/home/static/js/lazyload.js"
+        },
+        "home:static/js/mod.js": {
+            "uri": "/static/home/static/js/mod.js",
+            "type": "js",
+            "subpath": "/static/home/static/js/mod.js"
+        },
+        "home:static/js/page.js": {
+            "uri": "/static/home/static/js/page.js",
+            "type": "js",
+            "deps": [
+                "home:static/js/bigpipe.js"
+            ],
+            "subpath": "/static/home/static/js/page.js"
+        },
+        "home:widget/message/message.tpl": {
+            "uri": "home/widget/message/message.tpl",
+            "type": "tpl",
+            "subpath": "/views/home/widget/message/message.tpl"
+        },
+        "home:node_modules/react/index.js": {
+            "uri": "/static/home/node_modules/react/index.js",
+            "type": "js",
+            "deps": [
+                "home:node_modules/react/cjs/react.production.min.js",
+                "home:node_modules/react/cjs/react.development.js"
+            ],
+            "pkg": "home:p0",
+            "subpath": "/static/home/node_modules/react/index.js"
+        },
+        "home:node_modules/react-dom/client.js": {
+            "uri": "/static/home/node_modules/react-dom/client.js",
+            "type": "js",
+            "deps": [
+                "home:node_modules/react-dom/index.js"
+            ],
+            "pkg": "home:p0",
+            "subpath": "/static/home/node_modules/react-dom/client.js"
+        },
+        "home:node_modules/react-dom/server.browser.js": {
+            "uri": "/static/home/node_modules/react-dom/server.browser.js",
+            "type": "js",
+            "deps": [
+                "home:node_modules/react-dom/cjs/react-dom-server-legacy.browser.production.min.js",
+                "home:node_modules/react-dom/cjs/react-dom-server.browser.production.min.js",
+                "home:node_modules/react-dom/cjs/react-dom-server-legacy.browser.development.js",
+                "home:node_modules/react-dom/cjs/react-dom-server.browser.development.js"
+            ],
+            "pkg": "home:p0",
+            "subpath": "/static/home/node_modules/react-dom/server.browser.js"
+        },
+        "home:node_modules/react/cjs/react.production.min.js": {
+            "uri": "/static/home/node_modules/react/cjs/react.production.min.js",
+            "type": "js",
+            "pkg": "home:p0",
+            "subpath": "/static/home/node_modules/react/cjs/react.production.min.js"
+        },
+        "home:node_modules/react/cjs/react.development.js": {
+            "uri": "/static/home/node_modules/react/cjs/react.development.js",
+            "type": "js",
+            "pkg": "home:p0",
+            "subpath": "/static/home/node_modules/react/cjs/react.development.js"
+        },
+        "home:node_modules/react-dom/index.js": {
+            "uri": "/static/home/node_modules/react-dom/index.js",
+            "type": "js",
+            "deps": [
+                "home:node_modules/react-dom/cjs/react-dom.production.min.js",
+                "home:node_modules/react-dom/cjs/react-dom.development.js"
+            ],
+            "pkg": "home:p0",
+            "subpath": "/static/home/node_modules/react-dom/index.js"
+        },
+        "home:node_modules/react-dom/cjs/react-dom-server-legacy.browser.production.min.js": {
+            "uri": "/static/home/node_modules/react-dom/cjs/react-dom-server-legacy.browser.production.min.js",
+            "type": "js",
+            "deps": [
+                "home:node_modules/react/index.js"
+            ],
+            "pkg": "home:p0",
+            "subpath": "/static/home/node_modules/react-dom/cjs/react-dom-server-legacy.browser.production.min.js"
+        },
+        "home:node_modules/react-dom/cjs/react-dom-server.browser.production.min.js": {
+            "uri": "/static/home/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js",
+            "type": "js",
+            "deps": [
+                "home:node_modules/react/index.js"
+            ],
+            "pkg": "home:p0",
+            "subpath": "/static/home/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js"
+        },
+        "home:node_modules/react-dom/cjs/react-dom-server-legacy.browser.development.js": {
+            "uri": "/static/home/node_modules/react-dom/cjs/react-dom-server-legacy.browser.development.js",
+            "type": "js",
+            "deps": [
+                "home:node_modules/react/index.js"
+            ],
+            "pkg": "home:p0",
+            "subpath": "/static/home/node_modules/react-dom/cjs/react-dom-server-legacy.browser.development.js"
+        },
+        "home:node_modules/react-dom/cjs/react-dom-server.browser.development.js": {
+            "uri": "/static/home/node_modules/react-dom/cjs/react-dom-server.browser.development.js",
+            "type": "js",
+            "deps": [
+                "home:node_modules/react/index.js"
+            ],
+            "pkg": "home:p0",
+            "subpath": "/static/home/node_modules/react-dom/cjs/react-dom-server.browser.development.js"
+        },
+        "home:node_modules/react-dom/cjs/react-dom.production.min.js": {
+            "uri": "/static/home/node_modules/react-dom/cjs/react-dom.production.min.js",
+            "type": "js",
+            "deps": [
+                "home:node_modules/react/index.js",
+                "home:node_modules/scheduler/index.js"
+            ],
+            "pkg": "home:p0",
+            "subpath": "/static/home/node_modules/react-dom/cjs/react-dom.production.min.js"
+        },
+        "home:node_modules/react-dom/cjs/react-dom.development.js": {
+            "uri": "/static/home/node_modules/react-dom/cjs/react-dom.development.js",
+            "type": "js",
+            "deps": [
+                "home:node_modules/react/index.js",
+                "home:node_modules/scheduler/index.js"
+            ],
+            "pkg": "home:p0",
+            "subpath": "/static/home/node_modules/react-dom/cjs/react-dom.development.js"
+        },
+        "home:node_modules/scheduler/index.js": {
+            "uri": "/static/home/node_modules/scheduler/index.js",
+            "type": "js",
+            "deps": [
+                "home:node_modules/scheduler/cjs/scheduler.production.min.js",
+                "home:node_modules/scheduler/cjs/scheduler.development.js"
+            ],
+            "pkg": "home:p0",
+            "subpath": "/static/home/node_modules/scheduler/index.js"
+        },
+        "home:node_modules/scheduler/cjs/scheduler.production.min.js": {
+            "uri": "/static/home/node_modules/scheduler/cjs/scheduler.production.min.js",
+            "type": "js",
+            "pkg": "home:p0",
+            "subpath": "/static/home/node_modules/scheduler/cjs/scheduler.production.min.js"
+        },
+        "home:node_modules/scheduler/cjs/scheduler.development.js": {
+            "uri": "/static/home/node_modules/scheduler/cjs/scheduler.development.js",
+            "type": "js",
+            "pkg": "home:p0",
+            "subpath": "/static/home/node_modules/scheduler/cjs/scheduler.development.js"
+        }
+    },
+    "pkg": {
+        "home:p0": {
+            "uri": "/static/home/pkg/npm/bundle.js",
+            "type": "js",
+            "has": [
+                "home:node_modules/react/cjs/react.production.min.js",
+                "home:node_modules/react/cjs/react.development.js",
+                "home:node_modules/react/index.js",
+                "home:node_modules/scheduler/cjs/scheduler.production.min.js",
+                "home:node_modules/scheduler/cjs/scheduler.development.js",
+                "home:node_modules/scheduler/index.js",
+                "home:node_modules/react-dom/cjs/react-dom.production.min.js",
+                "home:node_modules/react-dom/cjs/react-dom.development.js",
+                "home:node_modules/react-dom/index.js",
+                "home:node_modules/react-dom/client.js",
+                "home:node_modules/react-dom/cjs/react-dom-server-legacy.browser.production.min.js",
+                "home:node_modules/react-dom/cjs/react-dom-server.browser.production.min.js",
+                "home:node_modules/react-dom/cjs/react-dom-server-legacy.browser.development.js",
+                "home:node_modules/react-dom/cjs/react-dom-server.browser.development.js",
+                "home:node_modules/react-dom/server.browser.js"
+            ],
+            "subpath": "/static/home/pkg/npm/bundle.js"
+        }
+    }
+}
